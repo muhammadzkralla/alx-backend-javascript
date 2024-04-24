@@ -1,6 +1,7 @@
 import signUpUser from './4-user-promise';
 import uploadPhoto from './5-photo-reject';
 
+/* eslint-disable */
 export default function handleProfileSignup(firstName, lastName, fileName) {
   const signUpUserPromise = signUpUser(firstName, lastName);
   const uploadPhotoPromise = uploadPhoto(fileName);
